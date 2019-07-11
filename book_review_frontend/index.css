@@ -1,0 +1,57 @@
+#filter-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: skyblue;
+
+}
+
+/* #good-dog-filter {
+  margin-top: 1vh;
+  width: 35vw;
+  font-size: 1em;
+  height: 5vh;
+  border-radius: 3em;
+} */
+
+#book-bar {
+  height: 25vh;
+  background: PaleGreen;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.book_title {
+  cursor: pointer;
+}
+
+#book-bar div {
+  height: 98%;
+  width: 15vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2em;
+  border: 2px solid darkgreen;
+}
+
+#book-summary-container {
+  height: 75vh;
+  text-align: center;
+}
+
+#book-info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#book-info img {
+  max-width: 75vw;
+  max-height: 25vw;
+}
+
+body {
+  margin: 0;
+}
